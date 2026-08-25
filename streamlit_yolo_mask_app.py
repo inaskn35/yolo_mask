@@ -83,7 +83,7 @@ elif mode == "동영상":
             stframe.image(cv2.cvtColor(result_bgr, cv2.COLOR_BGR2RGB), channels="RGB", use_container_width=True)
             # 잠시 대기 - 너무 빠른 루프 방지
             #if cv2.waitKey(1) & 0xFF == ord('q'):
-                break
+               # break
 
         cap.release()
 
